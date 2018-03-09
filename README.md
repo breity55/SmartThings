@@ -1,2 +1,2 @@
-# smartthings
-SmartThings SmartApps
+# SmartThings
+Just some fun personal SmartThings development. 
