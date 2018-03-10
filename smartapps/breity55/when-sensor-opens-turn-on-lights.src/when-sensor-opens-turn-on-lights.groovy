@@ -4,9 +4,8 @@ definition(
 	author: "Alex Breitenstein",
 	description: "When a sensor is opened between sunset and sunrise then turn on selected lights.",
 	category: "Lights",
-	iconUrl: "",
-    iconX2Url: "",
-    iconX3Url: ""
+    iconUrl: "https://s3.amazonaws.com/smartapp-icons/Meta/light_presence-outlet.png",
+    iconX2Url: "https://s3.amazonaws.com/smartapp-icons/Meta/light_presence-outlet@2x.png"
 )
 
 preferences {
