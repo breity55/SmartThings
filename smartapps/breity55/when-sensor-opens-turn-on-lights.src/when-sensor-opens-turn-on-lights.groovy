@@ -11,10 +11,10 @@ definition(
 
 preferences {
 	section("When Sensor Opens...") {
-		input "sensorInput", "capability.contactSensor", title: "Which Sensor?" required: true
+		input "sensorInput", "capability.contactSensor", title: "Which Sensor?", required: true
 	}
 	section("Turn On Lights...") {
-		input "lightInputs", "capability.switch", title: "Which Light(s)?" required: true, multiple: true
+		input "lightInputs", "capability.switch", title: "Which Light(s)?", required: true, multiple: true
 	}
 }
 
