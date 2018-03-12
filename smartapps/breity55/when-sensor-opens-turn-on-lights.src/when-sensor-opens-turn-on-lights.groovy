@@ -33,7 +33,7 @@ def updated() {
 }
 
 def subscribeEvents() {
-	subscribe(sensorInput, "contactSensor.open", handleEvent)
+	subscribe(sensorInput, "contact.open", handleEvent)
 }
 
 def handleEvent(event) {
@@ -41,6 +41,6 @@ def handleEvent(event) {
 	def sunriseAndSunset = getSunriseAndSunset(zipCode: zipCodeInput, sunsetOffset: sunsetOffsetValueInput, sunriseOffset: sunriseOffsetValueInput)
 
 	if(currentTime < sunriseAndSunset.sunrise || currentTime > sunriseAndSunset.sunset) {
-		lightsInputs.on()
+		lightInputs.on()
 	}
 }
